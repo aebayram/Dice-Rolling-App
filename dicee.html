@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dicee</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1 id="result">Refresh Me</h1>
+
+    <div class="dice">
+      <p id="p1">Player 1</p>
+      <p id="score1"></p>
+      <img class="img1" src="">
+    </div>
+
+    <div class="dice">
+      <p id="p2">Player 2</p>
+      <p id="score2"></p>
+      <img class="img2" src="">
+    </div>
+
+  </div>
+  <center><button style="width: 150px; margin-top: 25px; padding: 5px; font-size: 25px;" onclick="rollDice()">Roll Dice</button>
+    <button style="width: 150px; margin-top: 25px; padding: 5px; font-size: 25px;" onclick="reset()">Reset</button>
+  </center>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
